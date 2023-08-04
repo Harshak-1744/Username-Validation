@@ -23,7 +23,6 @@ class Main {
             return "false";
         }
 
-        // If all checks pass, return "true".
         return "true";
     }
 
