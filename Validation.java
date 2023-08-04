@@ -13,7 +13,7 @@ class Main {
             return "false";
         }
 
-        // Check if the username contains only letters, numbers, and underscores.
+       
         if (!str.matches("^[a-zA-Z0-9_]+$")) {
             return "false";
         }
