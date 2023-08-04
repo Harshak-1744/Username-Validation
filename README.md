@@ -5,3 +5,4 @@
 *   Check if the username starts with a letter.
 *   Check if the username contains only letters, numbers, and underscores.
 *   Check if the username ends with an underscore character.
+*   If all checks pass, return "true".
