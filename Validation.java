@@ -2,7 +2,7 @@ import java.util.*;
 
 class Main {
 
-    public static String CodelandUsernameValidation(String str) {
+    public static String UsernameValidation(String str) {
        
         if (str.length() < 4 || str.length() > 25) {
             return "false";
@@ -30,7 +30,7 @@ class Main {
     public static void main(String[] args) {
         // keep this function call here
         Scanner s = new Scanner(System.in);
-        System.out.print(CodelandUsernameValidation(s.nextLine()));
+        System.out.print(UsernameValidation(s.nextLine()));
     }
 
 }
