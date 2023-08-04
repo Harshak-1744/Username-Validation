@@ -3,7 +3,7 @@ import java.util.*;
 class Main {
 
     public static String CodelandUsernameValidation(String str) {
-        // Check if the username length is between 4 and 25 characters.
+       
         if (str.length() < 4 || str.length() > 25) {
             return "false";
         }
