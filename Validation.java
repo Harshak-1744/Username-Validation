@@ -18,7 +18,7 @@ class Main {
             return "false";
         }
 
-        // Check if the username ends with an underscore character.
+       
         if (str.charAt(str.length() - 1) == '_') {
             return "false";
         }
