@@ -8,7 +8,7 @@ class Main {
             return "false";
         }
 
-        // Check if the username starts with a letter.
+        
         if (!Character.isLetter(str.charAt(0))) {
             return "false";
         }
